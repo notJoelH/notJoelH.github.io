@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<!--
+    This is my own page for my projects & portfolio
+    Based on Aerial template
+
+-->
+<html lang="en">
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<portfolio><link rel="stylesheet" href="assets/css/portfolio.css" /></portfolio>
+	</head>
+	<body>
+
+        <!-- Header -->
+		<header id="portfolio-header">
+			<h1>Portfolio</h1>
+		</header>
+
+		<main class="projects">
+
+			<!--
+                Project List
+                Each project is an article with a title, description, and link to the project page or code repository.
+			-->
+
+            <!-- Rags and Ritchie -->
+			<article class="project">
+				<h2><a href="https://keysmashgames.itch.io/rags-and-richie">Rags and Ritchie</a></h2>
+				<p>A post-apocalyptic trading simulator game. Built as a group project using Unity and C#.</p>
+				<p class="project-link"><a href="https://github.com/notJoelH/Rags-and-Ritchie" target="_blank">View the code</a></p>
+			</article>
+
+            <!-- CMP301 Project -->
+			<article class="project">
+				<h2><a href="https://github.com/notJoelH/Graphics-Shaders-Project" target="_blank">Graphics & Shaders Project</a></h2>
+				<p>A university project exploring advanced graphics techniques and shader programming.</p>
+				<p class="project-link"></p>
+			</article>
+
+            	<!-- Deterr-Ants -->
+            	<article class="project">
+				<h2><a href="https://github.com/notJoelH/Deterr-Ants" target="_blank">Deterr-Ants</a></h2>
+				<p>Global Game Jam 2023 entry. A tower defense strategy game where you control ants to defend your colony against invaders.</p>
+			</article>
+		</main>
+
+		<footer class="portfolio-footer">
+			<span class="copyright">&copy; Joel Hunte.</span>
+		</footer>
+
+	</body>
+
+    	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Joel Hunte</h1>
+						<p>Games Development Student</p>
+						<nav>
+							<ul>
+								<li><a href="portfolio.html" class="icon solid fa-briefcase"><span class="label">Portfolio</span></a></li>
+								<li><a href="https://www.linkedin.com/in/joel-hunte-339ba7295" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/notJoelH" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="mailto:joejoehunte@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
